@@ -1,0 +1,79 @@
+
+body{
+    background-color: #1f2937;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+header h1{
+    justify-content: flex-start;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #f9faf8;
+    
+}
+header a{
+    text-decoration: none;
+    margin: 1rem;
+}
+.options{
+ 
+    display: flex;
+
+}
+article{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+article img{
+    width: 15rem;
+    height: 10rem;
+    justify-content: flex-end;
+}
+
+.landscape h1{
+    font-size: 3rem;
+    font-weight:bolder;
+    color: #f9faf8;
+
+}
+.landscape h2 ,header a{
+    font-size: 1.125rem;
+    color: #e5e7eb;
+
+}
+.landscape button{
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: large;
+}
+.Hero{
+    background-color: #ffffff;
+    text-align: center;
+}
+.Hero img{
+    width:10rem;
+    height:10rem;
+
+}
+.Hero p{
+    width: 10rem;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex:1;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: light italic;
+    text-decoration: none;
+    color: #1f2937;
+}
+
